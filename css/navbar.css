@@ -3,7 +3,17 @@ body{
   margin-top: 0.5rem;
   margin-bottom: 0;
   margin-inline: 2rem;
+  font-family: roboto, sans-serif  ;
 }
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/fonts/roboto-medium-webfont.woff2') format('woff2'),
+       url('/fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*
 Bleu foncé : #101E35
@@ -54,9 +64,8 @@ a:active{
 
 .navItems{
   list-style: none;
-
-  font-size: 0.7rem;
-  margin-inline: 1rem;
+  font-size: 0.65rem;
+  margin-inline: 0.7rem;
 }
 
 .navIcons{
