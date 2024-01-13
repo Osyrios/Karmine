@@ -2,7 +2,7 @@ body{
   background-color: #101E35;
   margin-top: 0.5rem;
   margin-bottom: 0;
-  margin-inline: 2rem;
+  margin-inline: 0;
   font-family: roboto, sans-serif  ;
 }
 
@@ -35,12 +35,17 @@ Blanc : #FFFFFF
 }
 
 /*STYLE DE LA BARRE DE NAVIGATION*/
+header{
+  margin-inline: 2rem;
+}
+
 nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: white;
+  background: none;
 }
 
 nav a{
@@ -53,24 +58,76 @@ a:active{
   color: white;
 }
 
-.navLogo{
-  height: 2.5rem;
-  width: 2.5rem;
-}
-
 .navList{
   display: flex;
 }
 
 .navItems{
   list-style: none;
-  font-size: 0.65rem;
-  margin-inline: 0.7rem;
+  font-size: 0.9rem;
+  margin-inline: 1rem;
 }
 
 .navIcons{
   list-style: none;
   text-decoration: none;
   font-size: 0.7rem;
-  margin-inline: 1rem;
+  margin-inline: 0.5rem;
+}
+
+.boutiqueLink:link,
+.boutiqueLink:visited,
+.boutiqueLink:active{
+  color: #00CCFF;
+}
+
+/*STYLE POUR LA PREMIERE SECTION*/
+
+.flagShip{
+  position: relative;
+}
+
+.flagshipImage{
+  position: absolute;
+  opacity: 70%;
+}
+
+.flagshipImage img{
+  width: 100%;
+}
+
+.flagshipText{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 87%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flagshipTextElements1{
+  font-weight: bold;
+  font-size: 4.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.flagshipTextElements2{
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.flagshipTextElements3{
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  border: white solid 1px;
+  padding: 0.7rem;
+}
+
+.flagshipTextElements3 a{
+  text-decoration: none;
 }
