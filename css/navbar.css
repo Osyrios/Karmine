@@ -21,6 +21,11 @@ Bleu ciel : #00CCFF
 Noir : #0D1015
 Blanc : #FFFFFF
 
+
+Media Query::
+Laptop : 1440*900
+Mobile : 428*926
+
 */
 
 
@@ -90,21 +95,19 @@ a:active{
 .flagshipImage{
   position: absolute;
   opacity: 70%;
-}
-
-.flagshipImage img{
-  width: 100%;
+  max-width: 100%;
 }
 
 .flagshipText{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 87%;
+  margin-top: 35%;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .flagshipTextElements1{
@@ -128,6 +131,12 @@ a:active{
   padding: 0.7rem;
 }
 
-.flagshipTextElements3 a{
+.flagshipTextElements3{
   text-decoration: none;
+}
+
+.flagshipTextElements3:hover{
+  background-color: white;
+  color: #101E35;
+  transition: all ease-in-out .3s;
 }
