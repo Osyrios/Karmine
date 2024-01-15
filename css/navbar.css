@@ -76,12 +76,18 @@ a:active{
 /*STYLE POUR LA PREMIERE SECTION*/
 
 .flagShip{
-  position: relative;
+  position: static;
   max-width: 100%;
 }
 
 .flagshipImage{
-  position: absolute;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.flagshipImageImg{
+  position: relative;
   opacity: 70%;
   max-width: 100%;
 }
@@ -90,7 +96,7 @@ a:active{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 35%;
+  top: 75%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -108,7 +114,7 @@ a:active{
 .flagshipTextElements2{
   font-size: 0.8rem;
   font-weight: bold;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .flagshipTextElements3{
@@ -129,3 +135,6 @@ a:active{
   transition: all ease-in-out .2s;
 }
 
+.test{
+  position: static;
+}
