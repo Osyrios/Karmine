@@ -1,5 +1,5 @@
 body{
-  background-color: #101E35;
+  background-color: #0D1015;
   margin-top: 0;
   margin-bottom: 0;
   margin-inline: 0;
@@ -11,6 +11,7 @@ body{
   justify-content: center;
   align-items: center;
   color: white;
+  background-color: #101E35;
   margin: 0;
   padding: 0.9rem;
   font-size: 0.7rem;
@@ -96,7 +97,7 @@ a:active{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 75%;
+  top: 70%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -114,7 +115,7 @@ a:active{
 .flagshipTextElements2{
   font-size: 0.8rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .flagshipTextElements3{
