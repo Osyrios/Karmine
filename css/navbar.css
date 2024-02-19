@@ -19,7 +19,7 @@ body{
   text-align: center;
 }
 
-/*STYLE DE LA BARRE DE NAVIGATION*/
+/*Navbar style*/
 
 .navFlag a:link, 
 a:visited, 
@@ -74,7 +74,7 @@ a:active{
   color: #00CCFF;
 }
 
-/*STYLE POUR LA PREMIERE SECTION*/
+/*First section with flagship product style*/
 
 .flagShip{
   position: static;
