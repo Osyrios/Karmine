@@ -154,5 +154,26 @@ a:active{
   }
 
   .partners img{
-    width: 125px;
+    width: auto;
+    height: auto;
+  }
+
+  /*Style for the shop section*/
+
+  .shopTitle{
+    color: #00CCFF;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .LastCollectionTitle{
+    color:#FFFFFF;
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 1;
   }
