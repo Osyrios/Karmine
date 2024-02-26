@@ -211,6 +211,7 @@ a:active{
 
 .products-display {
   margin-top: 2rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -227,4 +228,9 @@ a:active{
 .products-display p {
   padding: 0;
   margin: 0;
+}
+
+.image-products-section{
+  display: grid;
+
 }
