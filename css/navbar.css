@@ -231,6 +231,101 @@ a:active{
 }
 
 .image-products-section{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1rem;
+}
 
+.prokitImage{
+  grid-row-start: 0;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  opacity: 80%;
+}
+
+.prokitImage img:hover{
+  opacity: 100%;
+  border: #00CCFF solid 5px;
+}
+
+.monogramImage{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  opacity: 80%;
+}
+
+.monogramImage img:hover{
+  opacity: 100%;
+  border: #00CCFF solid 5px;
+}
+
+.posterImage{
+  grid-row-start: 0;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  opacity: 80%;
+}
+.posterImage img{
+  height: 100%;
+}
+
+.posterImage img:hover{
+  opacity: 100%;
+  border: #00CCFF solid 4px;
+}
+
+.legendsImage{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-content: end;
+  opacity: 80%;
+}
+
+.legendsImage img:hover{
+  opacity: 100%;
+  border: #00CCFF solid 5px;
+}
+
+.newsletter{
+  color: #FFFFFF;
+  background: linear-gradient(129deg, rgba(2,0,36,1) 7%,
+                                      rgba(0,187,236,1) 31%,
+                                      rgba(0,204,255,1) 64%,
+                                      rgba(2,0,36,1) 91%) ;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.newsletter H2{
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+}
+
+.newsletter p{
+  margin-bottom: 2rem;
+  margin-top: 0;
+  font-size: 0.7rem;
+}
+
+.newsletterInput button{
+  background-color: #FFFFFF;
 }
