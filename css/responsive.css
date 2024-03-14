@@ -1,0 +1,56 @@
+
+@media screen and (max-width : 770px) {
+
+  .navFlag3{
+    visibility: hidden;
+  }
+
+  .flagshipText{
+    top: 50%;
+  }
+
+  .containerF3{
+    width: 100vw;
+    text-align: center;
+  }
+
+  .partners{
+    justify-content: space-between;
+    gap: 1.1vw;
+  }
+
+  .partners img{
+    width: 15vw;
+    height: auto;
+    display: block;
+  }
+
+  .products-display{
+    flex-direction: column;
+    gap: 2vh 0vh;
+  }
+
+  .image-products-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh 0vh;
+    padding-bottom: 2vh;
+    margin-bottom: 1vh;
+  }
+
+  .prokitImage img,
+  .monogramImage img,
+  .posterImage img,
+  .legendsImage img{
+    width: 95vw;
+  }
+
+  .newsletter h2{
+    font-size: 2vh;
+  }
+  .newsletter p{
+    font-size: 1vh;
+  }
+
+}

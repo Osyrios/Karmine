@@ -14,8 +14,8 @@ body{
   background-color: #101E35;
   margin: 0;
   padding: 0.9rem;
-  font-size: 0.7rem;
-  height: 1rem;
+  font-size: 1vw;
+  height: 1vw;
   text-align: center;
 }
 
@@ -33,15 +33,17 @@ a:active{
 
 .navItems{
   list-style: none;
-  font-size: 0.9rem;
+  font-size: 1.1vw;
   margin-inline: 1rem;
 }
 
 .navIcons{
   list-style: none;
   text-decoration: none;
-  font-size: 0.7rem;
   margin-inline: 0.5rem;
+}
+.navIcons img{
+  width: 1.3vw;
 }
 
 .navFlag{
@@ -58,6 +60,10 @@ a:active{
 .navFlag1{
   margin-left: 2rem;
 }
+.navFlag1 img{
+  width: 7vw;
+}
+
 .navFlag2{
   left: 50%;
   transform: translateX(-50%);
@@ -107,26 +113,23 @@ a:active{
 
 .flagshipTextElements1{
   font-weight: bold;
-  font-size: 4.5rem;
+  font-size: 4.5vw;
   margin: 0;
   padding: 0;
 }
 
 .flagshipTextElements2{
-  font-size: 0.8rem;
+  font-size: 1.5vw;
   font-weight: bold;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.5vh;
 }
 
 .flagshipTextElements3{
-  font-size: 1rem;
+  font-size: 2vh;
   font-weight: bold;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05vw;
   border: white solid 1px;
-  padding: 0.7rem;
-}
-
-.flagshipTextElements3{
+  padding: 0.7vw;
   text-decoration: none;
   color: white;
 }
@@ -148,7 +151,7 @@ a:active{
   align-items: center;
   justify-content: space-around;
 
-  padding: 3rem;
+  padding: 3vw;
   border-top: #414450 solid 3px;
   border-bottom: #414450 solid 3px;
   }
@@ -210,8 +213,8 @@ a:active{
 }
 
 .products-display {
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -231,12 +234,12 @@ a:active{
 }
 
 .image-products-section{
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 1rem;
+  gap: 1vh;
 }
 
 .prokitImage{
@@ -311,17 +314,17 @@ a:active{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding: 2vh;
 }
 
-.newsletter H2{
+.newsletter h2{
   margin: 0;
   padding: 0;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .newsletter p{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 0;
   font-size: 0.7rem;
 }
